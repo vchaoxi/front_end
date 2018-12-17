@@ -115,10 +115,10 @@
 ---
 
 * [9. 移动端和框架](chapter9.md)
-  * [9.2 移动端js事件](chapter9.1.md)
-  * [9.3 zepto](chapter9.2.md)
-  * [9.4 swiper](chapter9.3.md)
-  * [9.5 bootstrap](chapter9.4.md)
+  * [9.1 移动端js事件](chapter9.1.md)
+  * [9.2 zepto](chapter9.2.md)
+  * [9.3 swiper](chapter9.3.md)
+  * [9.4 bootstrap](chapter9.4.md)
 
 ---
 
