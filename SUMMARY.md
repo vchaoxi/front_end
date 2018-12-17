@@ -31,11 +31,11 @@
  
  
 * [3. Photoshop](3sadf-asd.md)
- - [3.1 常用图片格式](chapter3.1md)
-  - [3.2 photoshop常用图片处理技巧](chapter3.2md)
- - [3.3 ps效果图制作实例](chapter3.3md)
- - [3.4 Photoshop批量切图技巧](chapter3.4md)
-  - [3.5 PHotoshiop制作雪碧图技巧](chapter3.5md)
+ - [3.1 常用图片格式](chapter3.1.md)
+  - [3.2 photoshop常用图片处理技巧](chapter3.2.md)
+ - [3.3 ps效果图制作实例](chapter3.3.md)
+ - [3.4 Photoshop批量切图技巧](chapter3.4.md)
+  - [3.5 PHotoshiop制作雪碧图技巧](chapter3.5.md)
 
 
 * [4. 前端页面开发流程](chapter4.md)
