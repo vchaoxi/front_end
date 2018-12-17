@@ -25,7 +25,7 @@ $('#div1').append($span);
 
 4、before()和insertBefore()：在现存元素的外部，从前面插入元素
 
-删除节点
+####删除节点
 
 ```
 
