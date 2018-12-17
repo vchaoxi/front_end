@@ -27,7 +27,7 @@
  - [2.8 浮动](chapter2.8.md)
  - [2.9 定位](chapter2.9.md)
  - [2.10 backgoround属性](chapter2.10.md)
- - [2.11 特征布局实例讲习](chapter2.11、md)
+ - [2.11 特征布局实例讲习](chapter2.11.md)
  
  
 * [3. Photoshop](3sadf-asd.md)
