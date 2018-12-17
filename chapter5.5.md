@@ -14,6 +14,8 @@
 11、backface-visibility 设置盒子背面是否可见
 
 ##举例：（翻面效果）
+
+```
 < !DOCTYPE html>
 < html lang="en">
 < head>
@@ -66,3 +68,5 @@
     <  /div>
 < /body>
 < /html>
+```
+
