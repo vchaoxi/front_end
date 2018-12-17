@@ -11,9 +11,9 @@
  - [1.5 html图像、绝对路径和相对路径 ](chapter1.5.md)   
  - [1.6 html链接](chapter1.6.md) 
  - [1.7 html列表](chapter1.7.md) 
- - [1.4 html表格及传统布局](chapter1.8.md) 
- - [1.4 html表单](chapter1.9.md) 
- - [1.4 html内嵌框架](chapter1.10.md)
+ - [1.8 html表格及传统布局](chapter1.8.md) 
+ - [1.9 html表单](chapter1.9.md) 
+ - [1.10 html内嵌框架](chapter1.10.md)
  
         
 * [2. CSS](chapter2.md)
