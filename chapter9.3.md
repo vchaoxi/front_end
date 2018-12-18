@@ -8,24 +8,24 @@ swiper.js是一款成熟稳定的应用于PC端和移动端的滑动效果插件
 
 ##swiper使用方法：
 ```
-< script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
 ......
 
-< link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 ......
 
-< div class="swiper-container">
-  < div class="swiper-wrapper">
-    < div class="swiper-slide">slider1</div>
-    < div class="swiper-slide">slider2</div>
-    < div class="swiper-slide">slider3</div>
-  < /div>
-    < div class="swiper-pagination">< /div>
-    < div class="swiper-button-prev">< /div>
-    < div class="swiper-button-next">< /div>
-< /div>
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">slider1</div>
+    <div class="swiper-slide">slider2</div>
+    <div class="swiper-slide">slider3</div>
+  </div>
+    <div class="swiper-pagination">< /div>
+    <div class="swiper-button-prev">< /div>
+    <div class="swiper-button-next">< /div>
+</div>
 
-< script> 
+<script> 
 var swiper = new Swiper('.swiper-container', {
     pagination: '.swiper-pagination',
   prevButton: '.swiper-button-prev',
@@ -36,7 +36,7 @@ var swiper = new Swiper('.swiper-container', {
   autoplay:3000,
   autoplayDisableOnInteraction:false
 });
-< /script>
+</script>
 ```
 
 

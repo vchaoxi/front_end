@@ -71,12 +71,12 @@ ajax只能请求同一个域下的数据或资源，有时候需要跨域请求�
 jsonp的原理如下：
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
     function aa(dat){
         alert(dat.name);
     }
-< /script>
-< script type="text/javascript" src="....../js/data.js"></script>
+</script>
+<script type="text/javascript" src="....../js/data.js"></script>
 ```
 
 
