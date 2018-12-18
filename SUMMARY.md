@@ -9,7 +9,7 @@
   * [1.2 html标题 ](chapter1.2.md)
   * [1.3 html段落、黄行与字符实 ](chapter1.3.md)
   * [1.4 html块、含样式的标签](chapter1.4.md)
-  * [1.5 html图像、绝对路径和相对路径](chapter1.5.md)
+  * [1.4 html块、含样式的标签](chapter1.4.md)
   * [1.6 html链接](chapter1.6.md)
   * [1.7 html列表](chapter1.7.md)
   * [1.8 html表格及传统布局](chapter1.8.md)
