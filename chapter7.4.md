@@ -5,12 +5,12 @@
 
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
     var oDiv = document.getElementById('div1');
-< /script>
+</script>
 ....
 
-< div id="div1">这是一个div元素< /div>
+<div id="div1">这是一个div元素</div>
 
 ```
 上面的语句，如果把javascript写在元素的上面，就会出错，因为页面上从上往下加载执行的，javascript去页面上获取元素div1的时候，元素div1还没有加载，解决方法有两种：
@@ -19,24 +19,24 @@
 
 ```
 ....
-< div id="div1">这是一个div元素< /div>
+<div id="div1">这是一个div元素</div>
 ....
 
-< script type="text/javascript">
+<script type="text/javascript">
     var oDiv = document.getElementById('div1');
-< /script>
-< /body>
+</script>
+</body>
 ```
 第二种方法：将javascript语句放到window.onload触发的函数里面,获取元素的语句会在页面加载完后才执行，就不会出错了。
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
     window.onload = function(){
         var oDiv = document.getElementById('div1');
     }
-< /script>
+</script>
 
 ....
 
-< div id="div1">这是一个div元素< /div>
+<div id="div1">这是一个div元素< /div>
 ```

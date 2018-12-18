@@ -6,7 +6,7 @@
 2、局部变量：在函数内部定义的变量，只能在定义该变量的函数内部访问，外部无法访问。
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
     //全局变量
     var a = 12;
     function myalert()
@@ -19,6 +19,6 @@
     myalert(); //弹出12和23
     alert(a);  //弹出12    
     alert(b);  //出错
-< /script>
+</script>
 ```
 

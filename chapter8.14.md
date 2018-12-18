@@ -34,11 +34,11 @@ $(function(){
 
 ......
 
-< div class="father">
+<div class="father">
     <div class="son">
         <div class="grandson"></div>
     </div>
-< /div>
+</div>
 
 ####阻止默认行为 
 阻止右键菜单

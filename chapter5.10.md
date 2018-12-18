@@ -17,14 +17,14 @@ html5增加了audio和video标签，提供了在页面上插入音频和视频�
 
 ```
 
-< audio src="source/audio.mp3" autoplay controls loop preload>< /audio>
+<audio src="source/audio.mp3" autoplay controls loop preload>< /audio>
 
-< !-- 或者用如下方式：  -->
+<!-- 或者用如下方式：  -->
 
-< audio  autoplay controls loop preload>
-    < source src="source/audio.mp3" type="">
-    < source src="source/audio02.wav" type="">
-< /audio>
+<audio  autoplay controls loop preload>
+    <source src="source/audio.mp3" type="">
+    <source src="source/audio02.wav" type="">
+</audio>
 ```
 
 

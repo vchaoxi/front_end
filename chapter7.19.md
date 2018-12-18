@@ -13,7 +13,7 @@
 1、单体
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
 var Tom = {
     name : 'tom',
     age : 18,
@@ -24,7 +24,7 @@ var Tom = {
         alert('我今年'+this.age+'岁');    
     }
 }
-< /script>
+</script>
 ```
 
 
@@ -32,7 +32,7 @@ var Tom = {
 
 ```
 
-< script type="text/javascript">
+<script type="text/javascript">
 
 function Person(name,age,job){
     var o = new Object();
@@ -53,13 +53,13 @@ function Person(name,age,job){
 var tom = Person('tom',18,'程序员');
 tom.showname();
 
-< /script>
+</script>
 ```
 
 2、构造函数
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
     function Person(name,age,job){            
         this.name = name;
         this.age = age;
@@ -77,14 +77,14 @@ tom.showname();
     var tom = new Person('tom',18,'程序员');
     var jack = new Person('jack',19,'销售');
     alert(tom.showjob==jack.showjob);
-< /script>
+</script>
 ```
 
 
 3、原型模式
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
     function Person(name,age,job){        
         this.name = name;
         this.age = age;
@@ -102,7 +102,7 @@ tom.showname();
     var tom = new Person('tom',18,'程序员');
     var jack = new Person('jack',19,'销售');
     alert(tom.showjob==jack.showjob);
-< /script>
+</script>
 ```
 
 
@@ -110,7 +110,7 @@ tom.showname();
 
 ```
 
-< script type="text/javascript">
+<script type="text/javascript">
 
         function fclass(name,age){
             this.name = name;
@@ -135,6 +135,6 @@ tom.showname();
         tom.showname();
         tom.showage();
         tom.showjob();
-    < /script>
+    </script>
     ```
     

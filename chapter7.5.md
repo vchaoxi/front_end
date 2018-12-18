@@ -15,7 +15,7 @@
 通过“.”操作属性：
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
 
     window.onload = function(){
         var oInput = document.getElementById('input1');
@@ -30,12 +30,12 @@
         oA.style.fontSize = val;
     }
 
-< /script>
+</script>
 
 ......
 
-< input type="text" name="setsize" id="input1" value="20px">
-< a href="http://www.itcast.cn" id="link1">传智播客</a>
+<input type="text" name="setsize" id="input1" value="20px">
+<a href="http://www.itcast.cn" id="link1">传智播客</a>
 ```
 
 
@@ -44,7 +44,7 @@
 
 ```
 
-< script type="text/javascript">
+<script type="text/javascript">
 
     window.onload = function(){
         var oInput1 = document.getElementById('input1');
@@ -57,13 +57,13 @@
         // oA.style.val1 = val2; 没反应
         oA.style[val1] = val2;        
     }
-< /script>
+</script>
 
 ......
 
-< input type="text" name="setattr" id="input1" value="fontSize">
-< input type="text" name="setnum" id="input2" value="30px">
-< a href= " http://www.itcast.cn" id="link1">传智播客</a>
+<input type="text" name="setattr" id="input1" value="fontSize">
+<input type="text" name="setnum" id="input2" value="30px">
+<a href= " http://www.itcast.cn" id="link1">传智播客</a>
 ```
 
 
@@ -72,7 +72,7 @@
 innerHTML可以读取或者写入标签包裹的内容
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
     window.onload = function(){
         var oDiv = document.getElementById('div1');
         //读取
@@ -81,10 +81,10 @@ innerHTML可以读取或者写入标签包裹的内容
         //写入
         oDiv.innerHTML = '<a href="http://www.itcast.cn">传智播客<a/>';
     }
-< /script>
+</script>
 
 ......
 
-< div id="div1">这是一个div元素</div>
+<div id="div1">这是一个div元素</div>
 ```
 

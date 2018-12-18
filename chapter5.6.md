@@ -38,12 +38,12 @@ steps 动画步数
 
 
 ```
-< !DOCTYPE html>
-< html lang="en">
-< head>
-    < meta charset="UTF-8">
-    < title>走路动画</title>
-    < style type="text/css">        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>走路动画</title>
+    <style type="text/css">        
         .box{
             width:120px;
             height:180px;
@@ -72,11 +72,11 @@ steps 动画步数
             }
         }
     < /style>
-< /head>
-< body>
+</head>
+<body>
     < div class="box">< img src="images/walking.png"></div>
-< /body>
-< /html>
+</body>
+</html>
 ```
 
 

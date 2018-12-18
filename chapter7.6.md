@@ -5,14 +5,14 @@
 ####函数定义与执行
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
     // 函数定义
     function aa(){
         alert('hello!');
     }
     // 函数执行
     aa();
-< /script>
+</script>
 ```
 
 
@@ -27,7 +27,7 @@ JavaScript解析过程分为两个阶段，先是编译阶段，然后执行阶�
         alert('hello!');
     }
     var bb = 123;
-< /script>
+</script>
 ```
 
 ####提取行间事件 
@@ -36,17 +36,17 @@ JavaScript解析过程分为两个阶段，先是编译阶段，然后执行阶�
 
 ```
 
-< !--行间事件调用函数   -->
-< script type="text/javascript">        
+<!--行间事件调用函数   -->
+<script type="text/javascript">        
     function myalert(){
         alert('ok!');
     }
-< /script>
+</script>
 ......
-< input type="button" name="" value="弹出" onclick="myalert()">
+<input type="button" name="" value="弹出" onclick="myalert()">
 
-< !-- 提取行间事件 -->
-< script type="text/javascript">
+<!-- 提取行间事件 -->
+<script type="text/javascript">
 
 window.onload = function(){
     var oBtn = document.getElementById('btn1');
@@ -57,7 +57,7 @@ window.onload = function(){
 }    
 </script>
 ......
-< input type="button" name="" value="弹出" id="btn1">
+<input type="button" name="" value="弹出" id="btn1">
 ```
 
 ####匿名函数
@@ -66,7 +66,7 @@ window.onload = function(){
 
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
 
 window.onload = function(){
     var oBtn = document.getElementById('btn1');
@@ -83,19 +83,19 @@ window.onload = function(){
     }
 }
 
-< /script>
+</script>
 ```
 
 
 ####函数传参
  
 ```
-< script type="text/javascript">
+<script type="text/javascript">
     function myalert(a){
         alert(a);
     }
     myalert(12345);
-< /script>
+</script>
 ```
 
 ####函数'return'关键字 
@@ -106,7 +106,7 @@ window.onload = function(){
 3、阻止默认行为
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
 function add(a,b){
     var c = a + b;
     return c;
@@ -115,6 +115,6 @@ function add(a,b){
 
 var d = add(3,4);
 alert(d);  //弹出7
-< /script>
+</script>
 ```
 

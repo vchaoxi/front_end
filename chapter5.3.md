@@ -13,7 +13,7 @@ box-shadow：h-shadow v-shadow blur spread color inset;
 分别设置阴影：水平偏移 垂直偏移 羽化大小 扩展大小 颜色 是否内阴影
 
 ```
-< style type="text/css">
+<style type="text/css">
     .box{
         width:200px;
         height:50px;
@@ -21,11 +21,11 @@ box-shadow：h-shadow v-shadow blur spread color inset;
         /* box-shadow:10px 10px 5px 2px pink inset; */
         box-shadow:10px 10px 5px 2px pink;
     }
-< /style>
+</style>
 ......
-< div class="box"></div>
+<div class="box"></div>
 
-< !-- 给盒子加上了粉红色的阴影 -->
+<!-- 给盒子加上了粉红色的阴影 -->
 ```
 
 

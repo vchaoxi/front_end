@@ -20,7 +20,7 @@
 ##举例：
 
 ```
-< style type="text/css">        
+<style type="text/css">        
 .box{
     width:100px;
     height:100px;
@@ -32,7 +32,7 @@
     height:300px;
     background-color:red;
 }
-< /style>
+</style>
 ......
-< div class="box"></div>
+<div class="box"></div>
 ```

@@ -33,7 +33,7 @@ function myalert(){
 
 ```
 
-< script type="text/javascript">
+<script type="text/javascript">
     window.onload = function(){    
         var oDiv = document.getElementById('div1');
         function timego(){
@@ -94,9 +94,9 @@ function myalert(){
             return n;
         }
     }
-< /script>
+</script>
 ......
-< div id="div1"></div>
+<div id="div1"></div>
 ```
 
 
@@ -104,7 +104,7 @@ function myalert(){
 
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
     window.onload = function(){
         var oDiv = document.getElementById('div1');
         function timeleft(){
@@ -122,8 +122,8 @@ function myalert(){
         setInterval(timeleft,1000);        
     }
 
-< /script>
+</script>
 ......
-< div id="div1"></div>
+<div id="div1"></div>
 ```
 

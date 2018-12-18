@@ -16,12 +16,12 @@
 ##举例：（翻面效果）
 
 ```
-< !DOCTYPE html>
-< html lang="en">
-< head>
-    < meta charset="UTF-8">
-    < title>翻面</title>
-    < style type="text/css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>翻面</title>
+    <style type="text/css">
         .box{
             width:300px;
             height:272px;
@@ -60,13 +60,13 @@
             transform:perspective(800px) rotateY(0deg);
         }
     </style>
-< /head>
-< body>
-    < div class="box">        
+</head>
+<body>
+    <div class="box">        
         <div class="pic"><img src="images/location_bg.jpg"></div>
-        < div class="back_info">背面文字说明< /div>
-    <  /div>
-< /body>
-< /html>
+        <div class="back_info">背面文字说明< /div>
+    </div>
+</body>
+</html>
 ```
 

@@ -49,7 +49,7 @@ ccc();
 1、将一个变量长期驻扎在内存当中，可用于循环中存索引值
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
     window.onload = function(){
         var aLi = document.getElementsByTagName('li');
         for(var i=0;i<aLi.length;i++)
@@ -61,22 +61,22 @@ ccc();
             })(i);
         }
     }
-< /script>
+</script>
 ......
-< ul>
+<ul>
     < li>111</li>
     < li>222</li>
     <  l i>333</li>
     < li>444</li>
     < li>555</li>
-< /ul>
+</ul>
 ```
 
 2、私有变量计数器，外部无法访问，避免全局变量的污染
 
 
 ```
-< script type="text/javascript">
+<script type="text/javascript">
 
 var count = (function(){
     var a = 0;
@@ -96,6 +96,6 @@ var nowcount = count();
 
 alert(nowcount);
 
-< /script>
+</script>
 ```
 
