@@ -5,24 +5,24 @@
 
 ```
 
-< input type="button" name="" onclick="alert('ok！');">
+<input type="button" name="" onclick="alert('ok！');">
 ```
 
 
 2、页面script标签嵌入
 
 ```
-< script type="text/javascript">        
+<script type="text/javascript">        
     var a = '你好！';
     alert(a);
-< /script>
+</script>
 ```
 
 
 3、外部引入
 
 ```
-< script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 ```
 
 
@@ -33,14 +33,14 @@
 
 
 ```
-< script type="text/javascript">    
+<script type="text/javascript">    
 var a = 123;
 var b = 'str';
 function fn(){
     alert(a);
 };
 fn();
-< /script>
+</script>
 ```
 
 
@@ -48,7 +48,7 @@ fn();
 
 ```
 
-< script type="text/javascript">    
+<script type="text/javascript">    
 
 // 单行注释
 var a = 123;
@@ -58,5 +58,5 @@ var a = 123;
     2、...
 */
 var b = 'str';
-< /script>
+</script>
 ```
