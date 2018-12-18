@@ -80,27 +80,27 @@ padding：20px; /* 设置四边内边距为20px */
 按照下面代码制作页面：
 
 ```
-< !DOCTYPE html>
-<  html lang="en">
-< head>
-    < meta charset="UTF-8">
-    < title>盒子的真实尺寸</title>
-    < style type="text/css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子的真实尺寸</title>
+    <style type="text/css">
         .box01{width:50px;height:50px;background-color:gold;}
         .box02{width:50px;height:50px;background-color:gold;border:50px
          solid #000}
         .box03{width:50px;height:50px;background-color:gold;border:50px
          solid #000;padding: 50px;}
-    < /style>
-< /head>
-< body>
+    </style>
+</head>
+<body>
     < div class="box01">1</div>
     < br />
     < div class="box02">2</div>
     < br />
     < div class="box03">3</div>
-< /body>
-< /html>
+</body>
+</html>
 ```
 
 

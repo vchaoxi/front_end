@@ -20,14 +20,14 @@ CSS权重指的是样式的优先级，有两条或多条样式作用于一个�
 
 
 ```
-<   style type="text/css">
+<style type="text/css">
     div{
         color:red !important;
     }        
-< /style>
+</style>
 ......
-< div style="color:blue">这是一个div元素</div>
-< !-- 
+<div style="color:blue">这是一个div元素</div>
+<!-- 
 两条样式同时作用一个div，上面的样式权重值为10000+1，下面的行间样式的权重值为1000，
 所以文字的最终颜色为red 
 -->
@@ -38,21 +38,21 @@ CSS权重指的是样式的优先级，有两条或多条样式作用于一个�
 
 
 ```
-<   style type="text/css">
+<style type="text/css">
     #content div.main_content h2{
         color:red;    
     }
     #content .main_content h2{
         color:blue;
     }
-< /style>
+</style>
 ......
-< div id="content">
-    < div class="main_content">
-        < h2>这是一个h2标题</h2>
-    < /div>
-< /div>
-< !--
+<div id="content">
+    <div class="main_content">
+        <h2>这是一个h2标题</h2>
+    </div>
+</div>
+<!--
 
 第一条样式的权重计算： 100+1+10+1，结果为112；
 第二条样式的权重计算： 100+10+1，结果为111；

@@ -3,21 +3,21 @@
 1、E:nth-child(n)：匹配元素类型为E且是父元素的第n个子元素
 
 ```
-< style type="text/css">            
+<style type="text/css">            
     .list div:nth-child(2){
         background-color:red;
     }
-< /style>
+</style>
 ......
-< div class="list">
+<div class="list">
     < h2>1< /h2>
     < div>2< /div>
     < div>3<  /div>
     < div>4< /div>
     < div>5< /div>
-< /div>
+</div>
 
-< !-- 第2个子元素div匹配 -->
+<!-- 第2个子元素div匹配 -->
 ```
 
 2、E:nth-last-child(n)：匹配元素类型为E且是父元素的倒数第n个子元素（与上一项顺序相反）
@@ -37,13 +37,13 @@
 
 
  ```
-  <  s tyle type="text/css">            
+  <s tyle type="text/css">            
     .list div:not(:nth-child(2)){
         background-color:red;
     }
-< /style>
+</style>
 ......
-< div class="list">
+<div class="list">
     < h2>1< /h2>
     < div>2< /div>
     < div>3< /div>
@@ -58,19 +58,19 @@
 16、E:target 对应锚点的样式
 
 ```
-< style type="text/css">
+<style type="text/css">
     h2:target{
         color:red;
     }
-< /style>
+</style>
 ......
-< a href="#tit01">标题一</a>
+<a href="#tit01">标题一</a>
 ......
-< h2 id="tit01">标题一</h2>
+<h2 id="tit01">标题一</h2>
 
-< !-- 点击链接，h2标题变红 -->
+<!-- 点击链接，h2标题变红 -->
 
-```
+``` 
 
 
 17、E > F E元素下面第一层子集
@@ -81,18 +81,19 @@
 1、E[data-attr] 含有data-attr属性的元素
 
 ```
-< style type="text/css">
+<style type="text/css">
     div[data-attr='ok']{
         color:red;
     }
-< /style>
+</style>
 ......
-< div data-attr="ok">这是一个div元素< /div>
+<div data-attr="ok">这是一个div元素< /div>
+<!-- 点击链接，h2标题变红 -->
 ```
 
 
 
-< !-- 点击链接，h2标题变红 -->
+
 2、E[data-attr='ok'] 含有data-attr属性的元素且它的值为“ok”
 3、E[data-attr^='ok'] 含有data-attr属性的元素且它的值的开头含有“ok”
 4、E[data-attr$='ok'] 含有data-attr属性的元素且它的值的结尾含有“ok”

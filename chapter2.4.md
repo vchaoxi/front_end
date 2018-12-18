@@ -13,8 +13,8 @@
 div{color:red}   
 
 
-< div>....< /div>   <!-- 对应以上两条样式 -->
-< div class="box">....</div>   < !-- 对应以上两条样式 -->
+<div>....</div>   <!-- 对应以上两条样式 -->
+<div class="box">....</div>   <!-- 对应以上两条样式 -->
 ```
 
 
@@ -40,9 +40,9 @@ div{color:red}
 .big{font-size:20px}
 .mt10{margin-top:10px} 
 
-< div class="red">....</div>
-< h1 class="red big mt10">....< /h1>
-< p class="red mt10">....</p>
+<div class="red">....</div>
+<h1 class="red big mt10">....< /h1>
+<p class="red mt10">....</p>
 ```
 
 
@@ -56,10 +56,10 @@ div{color:red}
 .box .red{color:pink}
 .red{color:red}
 
-< div class="box">
+<div class="box">
     < span>....</span>
     < a href="#" class="red">....</a>
-< /div>
+</div>
 
 
 <h3 class="red">....</h3>
@@ -93,7 +93,7 @@ div{color:red}
 .box3:after{content:'行尾文字';}
 
 
-< div class="box1">....</div>
-< div class="box2">....</div>
-< div class="box3">....</div>
+<div class="box1">....</div>
+<div class="box2">....</div>
+<div class="box3">....</div>
 ```
