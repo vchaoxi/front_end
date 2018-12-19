@@ -10,10 +10,10 @@
 4、animation-timing-function 动画曲线
 
 - linear 匀速
- - ease 开始和结束慢速
- - ease-in 开始是慢速
- - ease-out 结束时慢速
- - ease-in-out 开始和结束时慢速
+- ease 开始和结束慢速
+- ease-in 开始是慢速
+- ease-out 结束时慢速
+- ease-in-out 开始和结束时慢速
 steps 动画步数
 
 5、animation-delay 动画延迟
