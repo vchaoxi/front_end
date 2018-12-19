@@ -15,7 +15,7 @@ method属性定义提交的方式。   -->
 </p>
 
 <!-- input类型为password定义了一个密码输入框  -->
-<p >
+<p>
 <label>密码：</label><input type="password" name="password" />
 </p>
 
