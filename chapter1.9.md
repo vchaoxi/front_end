@@ -6,29 +6,29 @@
 ```
 <!-- form定义一个表单区域,action属性定义表单数据提交的地址，
 method属性定义提交的方式。   -->
-< form action="http://www..." method="get">
+<form action="http://www..." method="get">
 
 <!-- label标签定义表单控件的文字标注，input类型为text定义了
 一个单行文本输入框  -->
-< p> 
-<label  >姓名：< /label >< input type="text" name="username"  />
+<p> 
+<label  >姓名：</label><input type="text" name="username"  />
 </p>
 
 <!-- input类型为password定义了一个密码输入框  -->
 <p >
-<label>密码：< /label  >< input type="password" name="password" />
+<label>密码：</label><input type="password" name="password" />
 </p>
 
 <!-- input类型为radio定义了单选框  -->
 <p>
-<label>性别：< /label>
+<label>性别：</label>
 <input type="radio" name="gender" value="0" /> 男
 <input type="radio" name="gender" value="1" /> 女
 </p>
 
 <!-- input类型为checkbox定义了单选框  -->
 <p>
-<label>爱好：< /label>
+<label>爱好：</label>
 <input type="checkbox" name="like" value="sing" /> 唱歌
 <input type="checkbox" name="like" value="run" /> 跑步
 <input type="checkbox" name="like" value="swiming" /> 游泳
