@@ -10,11 +10,11 @@
 </style>
 ......
 <div class="list">
-    < h2>1< /h2>
-    < div>2< /div>
-    < div>3<  /div>
-    < div>4< /div>
-    < div>5< /div>
+    <h2>1< /h2>
+    <div>2< /div>
+    <div>3<  /div>
+    <div>4< /div>
+    <div>5< /div>
 </div>
 
 <!-- 第2个子元素div匹配 -->
@@ -44,14 +44,14 @@
 </style>
 ......
 <div class="list">
-    < h2>1< /h2>
-    < div>2< /div>
-    < div>3< /div>
-    < div>4< /div>
-    < div>5< /div>
+    <h2>1< /h2>
+    <div>2< /div>
+    <div>3< /div>
+    <div>4< /div>
+    <div>5< /div>
 </div>
 
-< !-- 第 3、4、5 子元素div匹配 -->
+<!-- 第 3、4、5 子元素div匹配 -->
 ```
 
   

@@ -7,7 +7,7 @@ jQuery的版本分为1.x系列和2.x、3.x系列，1.x系列兼容低版本的�
 jquery是一个函数库，一个js文件，页面用script标签引入这个js文件就可以使用。
 
 ```
-< script type="text/javascript" src="js/jquery-1.12.2.js">< /script>
+<script type="text/javascript" src="js/jquery-1.12.2.js"></script>
 ```
 
 jquery的口号和愿望 Write Less, Do More（写得少，做得多）

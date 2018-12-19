@@ -14,10 +14,10 @@ var $div2 = $('<div>这是一个div元素</div>');
 
 ```
 
-var $span = $('< span>这是一个span元素< /span>');
+var $span = $('<span>这是一个span元素</span>');
 $('#div1').append($span);
 ......
-< div id="div1"></div>
+<div id="div1"></div>
 ```
 2、prepend()和prependTo()：在现存元素的内部，从前面插入元素
 

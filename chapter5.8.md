@@ -16,6 +16,6 @@ h5新增的主要语义化标签如下：
 PC端兼容h5的新标签的方法，在页面中引入以下js文件:
 
 ```
-< script type="text/javascript" src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script>
+<script type="text/javascript" src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script>
 ```
 

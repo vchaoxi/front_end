@@ -94,11 +94,11 @@ padding：20px; /* 设置四边内边距为20px */
     </style>
 </head>
 <body>
-    < div class="box01">1</div>
-    < br />
-    < div class="box02">2</div>
-    < br />
-    < div class="box03">3</div>
+    <div class="box01">1</div>
+    <br />
+    <div class="box02">2</div>
+    <br />
+    <div class="box03">3</div>
 </body>
 </html>
 ```

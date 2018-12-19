@@ -41,7 +41,7 @@ div{color:red}
 .mt10{margin-top:10px} 
 
 <div class="red">....</div>
-<h1 class="red big mt10">....< /h1>
+<h1 class="red big mt10">....</h1>
 <p class="red mt10">....</p>
 ```
 
@@ -57,8 +57,8 @@ div{color:red}
 .red{color:red}
 
 <div class="box">
-    < span>....</span>
-    < a href="#" class="red">....</a>
+    <span>....</span>
+    <a href="#" class="red">....</a>
 </div>
 
 
@@ -77,9 +77,9 @@ div{color:red}
 .box2{background:pink}
 .box2{background:gold}
 
-< div class="box1">....</div>
-< div class="box2">....</div>
-< div class="box3">....</div>
+<div class="box1">....</div>
+<div class="box2">....</div>
+<div class="box3">....</div>
 ```
 
 
