@@ -9,7 +9,7 @@ method属性定义提交的方式。   -->
 < form action="http://www..." method="get">
 
 <!-- label标签定义表单控件的文字标注，input类型为text定义了
-一个单行文本输入框  -- >
+一个单行文本输入框  -->
 < p  > 
 <label  >姓名：< /label >< input type="text" name="username"  />
 </p >
