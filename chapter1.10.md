@@ -3,7 +3,7 @@
 
 ##html内嵌框架
 
-<iframe>标签会创建包含另外一个html文件的内联框架（即行内框架），src属性来定义另一个html文件的引用地址，frameborder属性定义边框，scrolling属性定义是否有滚动条，代码如下：
+&lt;iframe&gt;标签会创建包含另外一个html文件的内联框架（即行内框架），src属性来定义另一个html文件的引用地址，frameborder属性定义边框，scrolling属性定义是否有滚动条，代码如下：
 
 ```
 <iframe src="http://www..." frameborder="0" scrolling="no" ></iframe>
