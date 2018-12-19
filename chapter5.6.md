@@ -2,8 +2,11 @@
 
 
 1、@keyframes 定义关键帧动画
+
 2、animation-name 动画名称
+
 3、animation-duration 动画时间
+
 4、animation-timing-function 动画曲线
 
 - linear 匀速
@@ -14,7 +17,9 @@
 steps 动画步数
 
 5、animation-delay 动画延迟
+
 6、animation-iteration-count 动画播放次数 n|infinite
+
 7、animation-direction
 
  - normal 默认动画结束不返回

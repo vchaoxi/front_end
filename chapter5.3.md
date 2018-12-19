@@ -30,5 +30,7 @@ box-shadow：h-shadow v-shadow blur spread color inset;
 
 
 ##rgba（新的颜色值表示法）
+
 1、盒子透明度表示法：opacity:0.1;filter:alpha(opacity=10)（兼容IE）;
+
 2、rgba(0,0,0,0.1) 前三个数值表示颜色，第四个数值表示颜色的透明度

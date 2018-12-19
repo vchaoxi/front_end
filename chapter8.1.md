@@ -13,4 +13,5 @@ jquery是一个函数库，一个js文件，页面用script标签引入这个js�
 jquery的口号和愿望 Write Less, Do More（写得少，做得多）
 
 1、http://jquery.com/ 官方网站
+
 2、https://code.jquery.com/ 版本下载

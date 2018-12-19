@@ -44,19 +44,30 @@ var swiper = new Swiper('.swiper-container', {
 
 
 1、initialSlide：初始索引值，从0开始
+
 2、direction：滑动方向 horizontal | vertical
+
 3、speed：滑动速度，单位ms
+
 4、autoplay：设置自动播放及播放时间
+
 5、autoplayDisableOnInteraction：用户操作swipe后是否还自动播放，默认是true，不再自动播放
+
 6、pagination：分页圆点
+
 7、paginationClickable：分页圆点是否点击
+
 8、prevButton：上一页箭头
+
 9、nextButton：下一页箭头
+
 10、loop：是否首尾衔接
+
 11、onSlideChangeEnd：回调函数，滑动结束时执行
 
 ##swiper制作实例：
 
 
 1、swiper制作移动端焦点图实例
+
 2、swiper制作整页滚动效果
