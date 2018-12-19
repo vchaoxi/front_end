@@ -50,10 +50,10 @@ method属性定义提交的方式。   -->
 <p>
 <label>籍贯：</label>
 <select name="site">
-    < option value="0">北京</option>
-    < option value="1">上海</option>
-    < option value="2">广州</option>
-    < option value="3">深圳</option>
+    <option value="0">北京</option>
+    <option value="1">上海</option>
+    <option value="2">广州</option>
+    <option value="3">深圳</option>
 </select>
 </p>
 
