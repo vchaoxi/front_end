@@ -145,20 +145,26 @@ align-content : flex-start | flex-end | center | space-between | space-around | 
 
 
 flex : none | <' flex-grow '> <' flex-shrink >'? || <' flex-basis '>
+
 同时设置flex-grow 和 flex-shrink 以及 flex-basis
 
 flex-grow ： number
+
 表示的是当父元素有多余的空间时，这些空间在不同子元素之间的分配比例
 
 flex-shrink： number
+
 当父元素的空间不足时，各个子元素的尺寸缩小的比例
 
 flex-basis ：length | percentage | auto | content
+
 用来确定弹性条目的初始主轴尺寸。
 
 align-self ：auto | flex-start | flex-end | center | baseline | stretch
+
 覆写父元素指定的对齐方式
 
 order : integer
+
 改变条目在容器中的出现顺序
 
