@@ -19,8 +19,13 @@ grunt和gulp是使用node.js编写的，前端首选的自动化工具，gulp在
 gulp使用步骤： 安装nodejs -> 全局安装gulp -> 项目安装gulp以及gulp插件 -> 配置gulpfile.js -> 运行任务 gulp网站：http://gulpjs.com/
 
 常用gulp插件：
+
 压缩js代码（gulp-uglify）
+
 less的编译（gulp-less）
+
 css的压缩 （gulp-minify-css）
+
 自动添加css3前缀（gulp-autoprefixer）
+
 文件改名字 (gulp-rename)
