@@ -39,6 +39,9 @@ $(function(){
         <div class="grandson"></div>
     </div>
 </div>
+```
+
+
 
 ####阻止默认行为 
 
