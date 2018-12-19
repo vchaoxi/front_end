@@ -24,22 +24,27 @@ background属性是css中应用比较多，且比较重要的一个属性，它�
 ![background示例图片](/assets/1.2.jpg)
 
 2、“background:cyan url(bg.jpg) repeat-x”，横向平铺盒子，盒子其他部分显示背景颜色“cyan”。
+
 ![
 background示例图片](/assets/1.3.jpg)
 
 3、“background:cyan url(bg.jpg) repeat-y”，纵向平铺盒子，盒子其他部分显示背景颜色“cyan”。
 
+
 ![background示例图片](/assets/1.4.jpg)
 
 4、“background:cyan url(bg.jpg) no-repeat”，背景不重复，背景和盒子左上角对齐，盒子其他部分显示背景颜色“cyan”。
+
 
 ![background示例图片](/assets/1.5.jpg)
 
 5、“background:cyan url(bg.jpg) no-repeat left center”，背景不重复，背景和盒子左中对齐，盒子其他部分显示背景颜色“cyan”。
 
+
 ![background示例图片](/assets/1.6.jpg)
 
 6、“background:cyan url(bg.jpg) no-repeat right center”，背景不重复，背景和盒子右中对齐，也就是背景图片的右边对齐盒子的右边，盒子其他部分显示背景颜色“cyan”。
+
 
 ![background示例图片](/assets/1,7.jpg)
 
