@@ -5,25 +5,25 @@
 
 ```
 <!-- form定义一个表单区域,action属性定义表单数据提交的地址，
-method属性定义提交的方式。   -- >
-< form action="http://www..." method="get" >
+method属性定义提交的方式。   -->
+< form action="http://www..." method="get">
 
 <!-- label标签定义表单控件的文字标注，input类型为text定义了
 一个单行文本输入框  -- >
 < p  > 
-<label  >姓名：< /label >< input type="text" name="username"  /  >
+<label  >姓名：< /label >< input type="text" name="username"  />
 </p >
 
-<!-- input类型为password定义了一个密码输入框  -- >
+<!-- input类型为password定义了一个密码输入框  -->
 <p  >
-<label>密码：< /label  >< input type="password" name="password" / >
+<label>密码：< /label  >< input type="password" name="password" />
 </p >
 
-<!-- input类型为radio定义了单选框  -- >
+<!-- input类型为radio定义了单选框  -->
 <p>
 <label>性别：< /label>
 <input type="radio" name="gender" value="0" /> 男
-<input type="radio" name="gender" value="1" / > 女
+<input type="radio" name="gender" value="1" /> 女
 </p>
 
 <!-- input类型为checkbox定义了单选框  -->
@@ -43,7 +43,7 @@ method属性定义提交的方式。   -- >
 <!-- textarea定义多行文本输入  -->
 <p>
 <label >个人描述：< /label>
-<textarea name="about">< /textarea>
+<textarea name="about"></textarea>
 </p>
 
 <!-- select定义下拉列表选择  -->
@@ -59,7 +59,7 @@ method属性定义提交的方式。   -- >
 
 <!-- input类型为submit定义提交按钮  
      还可以用图片控件代替submit按钮提交，一般会导致提交两次，不建议使用。如：
-     < input type="image" src="xxx.gif">
+     <input type="image" src="xxx.gif">
 -->
 <p>
 <input type="submit" name="" value="提交">
