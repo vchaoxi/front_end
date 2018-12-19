@@ -10,14 +10,14 @@ method属性定义提交的方式。   -->
 
 <!-- label标签定义表单控件的文字标注，input类型为text定义了
 一个单行文本输入框  -->
-< p  > 
+< p> 
 <label  >姓名：< /label >< input type="text" name="username"  />
-</p >
+</p>
 
 <!-- input类型为password定义了一个密码输入框  -->
-<p  >
+<p >
 <label>密码：< /label  >< input type="password" name="password" />
-</p >
+</p>
 
 <!-- input类型为radio定义了单选框  -->
 <p>
