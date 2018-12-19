@@ -60,7 +60,7 @@
 
 ---
 
-* [6. 移动端页面开发流程](.af-afdsa-dfsad.md)
+* [6. 移动端页面开发流程](chapter6.md)
   * [6.1 移动端布局实例](chapter6.1.md)
 * [7. JavaScript](chapter7.md)
   * [7.1 JavaScript介绍](chapter7.1.md)
