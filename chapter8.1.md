@@ -1,4 +1,4 @@
-#jquery介绍
+# jquery介绍
 
 jQuery是目前使用最广泛的javascript函数库。据统计，全世界排名前100万的网站，有46%使用jQuery，远远超过其他库。微软公司甚至把jQuery作为他们的官方库。
 

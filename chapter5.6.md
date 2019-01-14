@@ -1,4 +1,4 @@
-#CSS3 animation动画
+# CSS3 animation动画
 
 
 1、@keyframes 定义关键帧动画
@@ -38,7 +38,7 @@
  
 10、animation:name duration timing-function delay iteration-count direction;同时设置多个属性
 
-##举例：（人物走路动画）
+## 举例：（人物走路动画）
 
 
 ```

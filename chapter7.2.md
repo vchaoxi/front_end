@@ -1,4 +1,4 @@
-#JavaScript嵌入页面的方式
+# JavaScript嵌入页面的方式
 
 1、行间事件（主要用于事件）
 
@@ -26,7 +26,7 @@
 ```
 
 
-####javascript语句与注释
+#### javascript语句与注释
 
 
 1、一条javascript语句应该以“;”结尾

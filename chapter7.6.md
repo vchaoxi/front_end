@@ -1,8 +1,8 @@
-#函数
+# 函数
 
 函数就是重复执行的代码片。
 
-####函数定义与执行
+#### 函数定义与执行
 
 ```
 <script type="text/javascript">
@@ -32,7 +32,7 @@ JavaScript解析过程分为两个阶段，先是编译阶段，然后执行阶�
 </script>
 ```
 
-####提取行间事件 
+#### 提取行间事件 
 
 在html行间调用的事件可以提取到javascript中调用，从而做到结构与行为分离。
 
@@ -62,7 +62,7 @@ window.onload = function(){
 <input type="button" name="" value="弹出" id="btn1">
 ```
 
-####匿名函数
+#### 匿名函数
 
 定义的函数可以不给名称，这个叫做匿名函数，可以将匿名函数直接赋值给元素绑定的事件来完成匿名函数的调用。
 
@@ -89,7 +89,7 @@ window.onload = function(){
 ```
 
 
-####函数传参
+#### 函数传参
  
 ```
 <script type="text/javascript">
@@ -100,7 +100,7 @@ window.onload = function(){
 </script>
 ```
 
-####函数'return'关键字 
+#### 函数'return'关键字 
 
 函数中'return'关键字的作用：
 

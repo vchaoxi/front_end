@@ -1,4 +1,4 @@
-#变量
+# 变量
 
 
 JavaScript 是一种弱类型语言，javascript的变量类型由它的值来决定。 定义变量需要用关键字 'var'
@@ -15,7 +15,7 @@ JavaScript 是一种弱类型语言，javascript的变量类型由它的值来�
  ```
  
  
-####变量类型
+#### 变量类型
 
 5种基本数据类型：
 number、string、boolean、undefined、null
@@ -23,7 +23,7 @@ number、string、boolean、undefined、null
 1种复合类型：
 object
 
-####变量、函数、属性、函数参数命名规范
+#### 变量、函数、属性、函数参数命名规范
 
 1、区分大小写
 

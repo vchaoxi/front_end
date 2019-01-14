@@ -1,7 +1,7 @@
-#background属性
+# background属性
 
 
-####属性解释 
+#### 属性解释 
 background属性是css中应用比较多，且比较重要的一个属性，它是负责给盒子设置背景图片和背景颜色的，background是一个复合属性，它可以分解成如下几个设置项：
 
  - background-color 设置背景颜色
@@ -12,7 +12,7 @@ background属性是css中应用比较多，且比较重要的一个属性，它�
  
 实际应用中，我们可以用background属性将上面所有的设置项放在一起，而且也建议这么做，这样做性能更高，而且兼容性更好，比如：“background: #00FF00 url(bgimage.gif) no-repeat left center fixed”，这里面的“#00ff00”是设置background-color；“url(bgimage.gif)”是设置background-image；“no-repeat”是设置background-repeat；“left center”是设置background-position；“fixed”是设置background-attachment，各个设置项用空格隔开，有的设置项不写也是可以的，它会使用默认值。
 
-####举例：
+#### 举例：
 
 下面这些例子使用下面这张图片做为背景图：
 

@@ -1,9 +1,9 @@
-#jquery样式操作
+# jquery样式操作
 
-####jquery用法思想二 
+#### jquery用法思想二 
 同一个函数完成取值和赋值
 
-####操作行间样式
+#### 操作行间样式
 
 ```
 // 获取div的样式
@@ -17,11 +17,11 @@ $("div").css("height","30px");
 $("div").css({fontSize:"30px",color:"red"});
 ```
 
-####特别注意 
+#### 特别注意 
 
 选择器获取的多个元素，获取信息获取的是第一个，比如：$("div").css("width")，获取的是第一个div的width。
 
-####操作样式类名
+#### 操作样式类名
 
 ```
 $("#div1").addClass("divClass2") //为id为div1的对象追加样式divClass2

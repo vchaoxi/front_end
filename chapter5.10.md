@@ -1,9 +1,9 @@
-#HTML5 音频和视频
+# HTML5 音频和视频
 
 
 html5增加了audio和video标签，提供了在页面上插入音频和视频的标准方法。
 
-####audio标签
+#### audio标签
 
   
 支持格式：ogg、wav、mp3
@@ -37,7 +37,7 @@ html5增加了audio和video标签，提供了在页面上插入音频和视频�
 
 source标签的作用是提供多个媒体文件地址，如果一个地址的文件不兼容，就使用下一个地址。
 
-####video标签 
+#### video标签 
 
 支持格式：ogg、mp4、webM
 

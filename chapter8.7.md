@@ -1,4 +1,4 @@
-#jquery特殊效果
+# jquery特殊效果
 
 
 fadeIn() 淡入

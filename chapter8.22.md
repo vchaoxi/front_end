@@ -1,4 +1,4 @@
-#本地存储
+# 本地存储
 
 
 本地存储分为cookie，以及新增的localStorage和sessionStorage

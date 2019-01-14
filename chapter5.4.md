@@ -1,4 +1,4 @@
-#CSS3 transition动画
+# CSS3 transition动画
 
 
 1、transition-property 设置过渡的属性，比如：width height background-color
@@ -20,7 +20,7 @@
 
 5、transition: property duration timing-function delay 同时设置四个属性
 
-##举例：
+## 举例：
 
 ```
 <style type="text/css">        

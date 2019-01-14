@@ -1,4 +1,4 @@
-#jquery链式调用
+# jquery链式调用
 
 jquery对象的方法会在执行完后返回这个jquery对象，所有jquery对象的方法可以连起来写：
 

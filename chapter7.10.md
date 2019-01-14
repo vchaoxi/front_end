@@ -1,4 +1,4 @@
-#Javascript组成
+# Javascript组成
 
 1、ECMAscript javascript的语法（变量、函数、循环语句等语法）
 

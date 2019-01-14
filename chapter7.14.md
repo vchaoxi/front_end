@@ -1,4 +1,4 @@
-#类型转换
+# 类型转换
 
 **1、直接转换 parseInt() 与 parseFloat()**
 

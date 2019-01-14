@@ -1,4 +1,4 @@
-#新选择器
+# 新选择器
 
 1、document.querySlector()
 

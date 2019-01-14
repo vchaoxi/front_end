@@ -1,4 +1,4 @@
-#less、sass、stylus
+# less、sass、stylus
 
 
 它们是三种类似的样式动态语言，属于css预处理语言，它们有类似css的语法，为css赋予了动态语言的特性、如变量、继承、运算、函数等。这么做是为了css的编写和维护。
@@ -10,7 +10,7 @@ http://koala-app.com/index-zh.html
 
 less中文网址：http://lesscss.cn/
 
-##less语法：
+## less语法：
 1、注释
 ```
     // 不会被编译的注释

@@ -1,4 +1,4 @@
-#swiper
+# swiper
 
 
 swiper.js是一款成熟稳定的应用于PC端和移动端的滑动效果插件，一般用来触屏焦点图、触屏整屏滚动等效果。 swiper分为2.x版本和3.x版本，2.x版本支持低版本浏览器(IE7)，3.x放弃支持低版本浏览器，适合应用在移动端。
@@ -7,7 +7,7 @@ swiper.js是一款成熟稳定的应用于PC端和移动端的滑动效果插件
 
 3.x版本中文网地址：http://www.swiper.com.cn/
 
-##swiper使用方法：
+## swiper使用方法：
 ```
 <script type="text/javascript" src="js/swiper.min.js"></script>
 ......
@@ -41,7 +41,7 @@ var swiper = new Swiper('.swiper-container', {
 ```
 
 
-##swiper使用参数：
+## swiper使用参数：
 
 
 1、initialSlide：初始索引值，从0开始
@@ -66,7 +66,7 @@ var swiper = new Swiper('.swiper-container', {
 
 11、onSlideChangeEnd：回调函数，滑动结束时执行
 
-##swiper制作实例：
+## swiper制作实例：
 
 
 1、swiper制作移动端焦点图实例
