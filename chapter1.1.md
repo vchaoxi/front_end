@@ -11,8 +11,7 @@ HTML是 HyperText Mark-up Language 的首字母简写，意思是超文本标记
 
 一个html的基本结构如下：
 
-```
-
+```html
 <!DOCTYPE html>
 <html lang="en">
     <head>            
@@ -25,7 +24,7 @@ HTML是 HyperText Mark-up Language 的首字母简写，意思是超文本标记
 </html>
 ```
 
-第一行是文档声明，第二行“&lt;html&gt;”标签和最后一行“</html>”定义html文档的整体，“&lt;html&gt;”标签中的‘lang=“en”’定义网页的语言为英文，定义成中文是'lang="zh-CN"',不定义也没什么影响，它一般作为分析统计用。 “&lt;head&gt;”标签和“&lt;body&gt;”标签是它的第一层子元素，“&lt;head&gt;”标签里面负责对网页进行一些设置以及定义标题，设置包括定义网页的编码格式，外链css样式文件和javascript文件等，设置的内容不会显示在网页上，标题的内容会显示在标题栏，“&lt;body&gt;”内编写网页上显示的内容。`<html>`
+第一行是文档声明，第二行“&lt;html&gt;”标签和最后一行“</html>”定义html文档的整体，“&lt;html&gt;”标签中的‘lang=“en”’定义网页的语言为英文，定义成中文是'lang="zh-CN"',不定义也没什么影响，它一般作为分析统计用。 “&lt;head&gt;”标签和“&lt;body&gt;”标签是它的第一层子元素，“&lt;head&gt;”标签里面负责对网页进行一些设置以及定义标题，设置包括定义网页的编码格式，外链css样式文件和javascript文件等，设置的内容不会显示在网页上，标题的内容会显示在标题栏，“&lt;body&gt;”内编写网页上显示的内容。
 
 ## HTML文档类型
 
@@ -40,7 +39,7 @@ xhtml 1.0 是html5之前的一个常用的版本，目前许多网站仍然使�
 此版本文档用sublime text创建方法： html:xt + tab
 文档示例：
 
-```
+```html
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
