@@ -18,6 +18,6 @@ a标签的target属性可以将链接到的页面直接显示在当前页面的i
 <a href="01.html" target="myframe">页面一</a>
 <a href="02.html" target="myframe">页面二</a>
 <a href="03.html" target="myframe">页面三</a>
-<iframe src="01.html" frameborder="0" scrolling="no" name="myframe"></iframe>
+<iframe src="01.html" frameborder="0" scrollin"no" name="myframe"></iframe>
 ```
 
